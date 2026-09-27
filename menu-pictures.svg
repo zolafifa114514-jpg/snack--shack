@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bread" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F4D18A"/><stop offset="1" stop-color="#B86B39"/></linearGradient>
+    <linearGradient id="brown" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8A4B32"/><stop offset="1" stop-color="#412218"/></linearGradient>
+    <linearGradient id="cupgreen" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#D7E86D"/><stop offset="1" stop-color="#78922A"/></linearGradient>
+    <linearGradient id="chipyellow" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F4D36B"/><stop offset="1" stop-color="#B66B21"/></linearGradient>
+  </defs>
+  <symbol id="pizza-bagel" viewBox="0 0 300 220">
+    <ellipse cx="155" cy="182" rx="105" ry="17" fill="#0D1B15" opacity=".18"/>
+    <path d="M61 90C65 45 106 25 157 35C205 44 235 76 226 119C216 166 174 182 125 174C77 166 55 138 61 90Z" fill="url(#bread)" stroke="#0D1B15" stroke-width="7"/>
+    <ellipse cx="143" cy="105" rx="49" ry="30" fill="#B86436" stroke="#0D1B15" stroke-width="6"/>
+    <ellipse cx="143" cy="105" rx="25" ry="14" fill="#4B2B1D"/>
+    <circle cx="113" cy="83" r="8" fill="#D63E27"/><circle cx="165" cy="82" r="8" fill="#D63E27"/><circle cx="180" cy="119" r="8" fill="#D63E27"/><circle cx="120" cy="130" r="8" fill="#D63E27"/>
+    <path d="M85 68C111 51 153 48 188 63" stroke="#FFE5A6" stroke-width="7" stroke-linecap="round" opacity=".7"/>
+  </symbol>
+  <symbol id="brownie" viewBox="0 0 300 220">
+    <ellipse cx="151" cy="182" rx="91" ry="16" fill="#0D1B15" opacity=".18"/>
+    <path d="M66 78L211 66L232 150L88 172L66 78Z" fill="url(#brown)" stroke="#0D1B15" stroke-width="7"/>
+    <path d="M66 78L196 57L211 66L81 91L66 78Z" fill="#A76747" stroke="#0D1B15" stroke-width="7"/>
+    <path d="M85 105L210 88M92 132L216 112M103 152L218 134" stroke="#C17B55" stroke-width="6" stroke-linecap="round" opacity=".65"/>
+    <circle cx="119" cy="111" r="6" fill="#2A140E"/><circle cx="177" cy="98" r="6" fill="#2A140E"/><circle cx="168" cy="139" r="6" fill="#2A140E"/>
+  </symbol>
+  <symbol id="lemonade" viewBox="0 0 300 220">
+    <ellipse cx="149" cy="190" rx="71" ry="13" fill="#0D1B15" opacity=".18"/>
+    <path d="M99 65L204 65L190 184C166 196 137 196 112 184L99 65Z" fill="url(#cupgreen)" stroke="#0D1B15" stroke-width="7"/>
+    <path d="M93 61C114 48 193 48 211 61L203 80C181 91 119 89 100 78L93 61Z" fill="#F4F1DD" stroke="#0D1B15" stroke-width="7"/>
+    <path d="M139 27L151 60M170 25L165 60" stroke="#0D1B15" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="149" cy="117" r="30" fill="#F5D24D" opacity=".8"/><path d="M149 90V145M122 117H177" stroke="#FFF0A0" stroke-width="4"/>
+    <text x="117" y="169" font-family="Arial" font-weight="800" font-size="14" fill="#F8F6E9" letter-spacing="2">LEMON</text>
+  </symbol>
+  <symbol id="fruit-cup" viewBox="0 0 300 220">
+    <ellipse cx="149" cy="185" rx="80" ry="15" fill="#0D1B15" opacity=".18"/>
+    <path d="M81 74L218 74L202 171C176 185 124 185 98 171L81 74Z" fill="#E8C4D2" stroke="#0D1B15" stroke-width="7"/>
+    <path d="M76 71C101 56 199 56 223 71L216 91C181 103 114 101 82 90L76 71Z" fill="#F4F1DD" stroke="#0D1B15" stroke-width="7"/>
+    <circle cx="116" cy="73" r="22" fill="#DA4B3B"/><circle cx="147" cy="67" r="18" fill="#F0B93C"/><circle cx="178" cy="72" r="21" fill="#7CAD51"/>
+    <path d="M125 44C116 29 126 20 137 17M172 47C183 30 194 35 197 22" stroke="#3B6A37" stroke-width="7" stroke-linecap="round"/>
+  </symbol>
+  <symbol id="lays" viewBox="0 0 300 220">
+    <ellipse cx="149" cy="186" rx="88" ry="14" fill="#0D1B15" opacity=".18"/>
+    <path d="M86 44C118 30 183 30 213 46L207 174C175 188 122 188 93 174L86 44Z" fill="#F0D943" stroke="#0D1B15" stroke-width="7"/>
+    <path d="M89 51C117 66 181 67 210 52" stroke="#C78421" stroke-width="6" opacity=".7"/>
+    <ellipse cx="149" cy="105" rx="42" ry="39" fill="#F5F0DB" stroke="#0D1B15" stroke-width="5"/>
+    <text x="118" y="111" fill="#D7442D" font-family="Arial" font-size="24" font-weight="800">LAY'S</text>
+    <path d="M103 144C126 154 173 154 198 143" stroke="#C7831F" stroke-width="5" stroke-linecap="round"/>
+  </symbol>
+  <symbol id="doritos" viewBox="0 0 300 220">
+    <ellipse cx="151" cy="182" rx="90" ry="14" fill="#0D1B15" opacity=".18"/>
+    <path d="M84 48C121 31 184 33 215 49L208 170C175 186 124 186 92 170L84 48Z" fill="#F08E2E" stroke="#0D1B15" stroke-width="7"/>
+    <path d="M91 57C119 70 180 71 208 57" stroke="#C93D22" stroke-width="6"/>
+    <path d="M150 76L190 128L111 128L150 76Z" fill="#F4D36B" stroke="#9A2D20" stroke-width="6"/>
+    <path d="M151 88L176 120H126L151 88Z" fill="#D64222"/>
+    <text x="107" y="157" fill="#FFF3CE" font-family="Arial" font-size="17" font-weight="800" letter-spacing="1">DORITOS</text>
+  </symbol>
+</svg>

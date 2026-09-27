@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Today’s quick, affordable snack menu for The Snack Shack student lunch club." />
+  <title>The Snack Shack — Today’s Menu</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#menu" aria-label="The Snack Shack home">
+        <span class="brand-mark" aria-hidden="true">✳</span>
+        <span>The Snack Shack</span>
+      </a>
+      <a class="pickup-link" href="#pickup">Pickup details <span aria-hidden="true">↓</span></a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="page-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Open today · Lunch break</p>
+        <h1 id="page-title">Grab a snack.<br /><em>Get back to it.</em></h1>
+        <p class="hero-intro">Quick bites, cold drinks, and sweet treats — ready when your lunch break starts.</p>
+        <a class="button button-dark" href="#menu">See today’s menu <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="hero-art" aria-label="Illustration of a snack bag, lemonade, and chips">
+        <img class="snack-illustration" src="snack-illustration.svg" alt="Realistic cartoon illustration of a Snack Shack bag, lemonade, and chips" />
+        <div class="sun-shape"></div>
+        <div class="doodle doodle-star">✦</div>
+        <div class="doodle doodle-spark">✧</div>
+        <div class="snack-bag"><span>SNACK<br />SHACK</span></div>
+        <div class="apple"><span></span></div>
+      </div>
+    </section>
+
+    <section class="menu-section" id="menu" aria-labelledby="menu-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Friday · 26 September</p>
+          <h2 id="menu-title">Today’s menu</h2>
+        </div>
+        <p class="menu-note">Tap a category to filter</p>
+      </div>
+
+      <div class="filters" role="group" aria-label="Filter menu items">
+        <button class="filter-button is-active" type="button" data-filter="all">All snacks</button>
+        <button class="filter-button" type="button" data-filter="savory">Savory</button>
+        <button class="filter-button" type="button" data-filter="sweet">Sweet</button>
+        <button class="filter-button" type="button" data-filter="drinks">Drinks</button>
+        <button class="filter-button" type="button" data-filter="fresh">Fresh</button>
+        <label class="search-box">
+          <span aria-hidden="true">⌕</span>
+          <input type="search" id="menu-search" placeholder="Search snacks" aria-label="Search snacks" />
+        </label>
+      </div>
+
+      <div class="menu-grid" aria-live="polite">
+        <article class="menu-card" data-category="savory" data-name="pizza bagel">
+          <div class="card-image image-toast"><img class="food-picture" src="pizza-bagel.svg" alt="Pizza bagel" /></div>
+          <div class="card-content">
+            <div class="card-topline"><span class="tag tag-savory">Savory</span><span class="price">$2.00</span></div>
+            <h3>Pizza Bagel</h3>
+            <p>Toasty, cheesy, and built for busy breaks.</p>
+            <button class="add-button" type="button" data-item="Pizza Bagel" data-price="2">Add to tray <span>+</span></button>
+          </div>
+        </article>
+        <article class="menu-card" data-category="sweet" data-name="fudge brownie">
+          <div class="card-image image-brownie"><img class="food-picture" src="brownie.svg" alt="Fudge brownie" /></div>
+          <div class="card-content">
+            <div class="card-topline"><span class="tag tag-sweet">Sweet</span><span class="price">$1.50</span></div>
+            <h3>Fudge Brownie</h3>
+            <p>Soft in the middle. Zero crumbs left behind.</p>
+            <button class="add-button" type="button" data-item="Fudge Brownie" data-price="1.5">Add to tray <span>+</span></button>
+          </div>
+        </article>
+        <article class="menu-card" data-category="drinks" data-name="fresh lemonade">
+          <div class="card-image image-lemonade"><img class="food-picture" src="lemonade.svg" alt="Fresh lemonade" /></div>
+          <div class="card-content">
+            <div class="card-topline"><span class="tag tag-drinks">Drink</span><span class="price">$1.00</span></div>
+            <h3>Fresh Lemonade</h3>
+            <p>Cool, bright, and the fastest refresh in school.</p>
+            <button class="add-button" type="button" data-item="Fresh Lemonade" data-price="1">Add to tray <span>+</span></button>
+          </div>
+        </article>
+        <article class="menu-card" data-category="fresh" data-name="fruit cup">
+          <div class="card-image image-fruit"><img class="food-picture" src="fruit-cup.svg" alt="Fresh fruit cup" /></div>
+          <div class="card-content">
+            <div class="card-topline"><span class="tag tag-fresh">Fresh</span><span class="price">$1.25</span></div>
+            <h3>Fruit Cup</h3>
+            <p>A fresh little reset for your afternoon.</p>
+            <button class="add-button" type="button" data-item="Fruit Cup" data-price="1.25">Add to tray <span>+</span></button>
+          </div>
+        </article>
+        <article class="menu-card" data-category="savory" data-name="lays classic chips">
+          <div class="card-image image-lays"><img class="food-picture" src="lays.svg" alt="Lay's Classic Chips" /></div>
+          <div class="card-content">
+            <div class="card-topline"><span class="tag tag-savory">Savory</span><span class="price">$1.25</span></div>
+            <h3>Lay’s Classic Chips</h3>
+            <p>Crunchy, salty, and easy to eat between bells.</p>
+            <button class="add-button" type="button" data-item="Lay’s Classic Chips" data-price="1.25">Add to tray <span>+</span></button>
+          </div>
+        </article>
+        <article class="menu-card" data-category="savory" data-name="doritos nacho cheese">
+          <div class="card-image image-doritos"><img class="food-picture" src="doritos.svg" alt="Doritos Nacho Cheese" /></div>
+          <div class="card-content">
+            <div class="card-topline"><span class="tag tag-savory">Savory</span><span class="price">$1.50</span></div>
+            <h3>Doritos Nacho Cheese</h3>
+            <p>Big crunch, bold flavor, no fork required.</p>
+            <button class="add-button" type="button" data-item="Doritos Nacho Cheese" data-price="1.5">Add to tray <span>+</span></button>
+          </div>
+        </article>
+      </div>
+      <p class="empty-state" hidden>No snacks in this category today. Try another filter.</p>
+    </section>
+
+    <aside class="tray" aria-live="polite" aria-label="Your snack tray">
+      <div class="tray-copy"><span class="tray-icon" aria-hidden="true">▱</span><span><strong>Your snack tray</strong><small id="tray-count">Nothing added yet</small></span></div>
+      <div class="tray-total"><span id="tray-total">$0.00</span><button class="clear-button" type="button" id="clear-tray">Clear</button></div>
+    </aside>
+
+    <section class="pickup-section" id="pickup" aria-labelledby="pickup-title">
+      <div class="pickup-card">
+        <div class="pickup-icon" aria-hidden="true">↗</div>
+        <div class="pickup-copy">
+          <p class="eyebrow">Don’t miss the bell</p>
+          <h2 id="pickup-title">Pickup, right this way.</h2>
+          <p>Find us by the <strong>library entrance</strong> during lunch. We’ll be set up and ready to keep the line moving.</p>
+        </div>
+        <div class="pickup-details">
+          <div><span>When</span><strong>12:10–12:35 PM</strong></div>
+          <div><span>Where</span><strong>Library entrance</strong></div>
+          <button class="button button-light" type="button" id="copy-location">Copy location <span aria-hidden="true">↗</span></button>
+          <span class="copy-confirmation" role="status" aria-live="polite"></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="connect-section" id="connect" aria-labelledby="connect-title">
+      <div>
+        <p class="eyebrow">Questions, ideas, requests?</p>
+        <h2 id="connect-title">Connect with the snack crew.</h2>
+      </div>
+      <a class="button button-dark" href="mailto:snackshack@school.edu?subject=Snack%20Shack%20question">Email us <span aria-hidden="true">↗</span></a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>Made for hungry students.</span>
+    <span>Cash or school meal card accepted · <a href="#connect">Contact us</a></span>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

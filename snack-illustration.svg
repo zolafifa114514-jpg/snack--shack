@@ -1,0 +1,28 @@
+<svg width="620" height="460" viewBox="0 0 620 460" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Cartoon illustration of snacks</title>
+  <desc id="desc">A dimensional snack bag, drink cup, chips, and apple drawn in a realistic cartoon style.</desc>
+  <defs>
+    <linearGradient id="bag" x1="111" y1="83" x2="257" y2="373" gradientUnits="userSpaceOnUse"><stop stop-color="#EE7553"/><stop offset="1" stop-color="#A82F25"/></linearGradient>
+    <linearGradient id="cup" x1="374" y1="145" x2="484" y2="383" gradientUnits="userSpaceOnUse"><stop stop-color="#D2E66B"/><stop offset="1" stop-color="#829F2C"/></linearGradient>
+    <linearGradient id="chip" x1="442" y1="87" x2="538" y2="185" gradientUnits="userSpaceOnUse"><stop stop-color="#F6D36A"/><stop offset="1" stop-color="#B87B25"/></linearGradient>
+    <filter id="shadow" x="55" y="55" width="500" height="370" filterUnits="userSpaceOnUse"><feDropShadow dx="12" dy="14" stdDeviation="8" flood-color="#07140E" flood-opacity=".22"/></filter>
+  </defs>
+  <path d="M89 366C174 401 421 425 545 355" stroke="#0D1B15" stroke-width="5" stroke-linecap="round" opacity=".22"/>
+  <g filter="url(#shadow)">
+    <path d="M108 81C149 69 208 70 248 85L270 350C216 374 149 370 92 347L108 81Z" fill="url(#bag)" stroke="#0D1B15" stroke-width="7"/>
+    <path d="M108 81C145 96 211 98 248 85" stroke="#FFB184" stroke-width="8" stroke-linecap="round"/>
+    <path d="M121 118C155 132 208 134 241 120" stroke="#7D241E" stroke-width="4" opacity=".55"/>
+    <path d="M122 143C156 157 207 158 241 145" stroke="#FF9670" stroke-width="3" opacity=".6"/>
+    <text x="136" y="225" fill="#FFF8E9" font-family="Arial, sans-serif" font-size="28" font-weight="800" letter-spacing="4">SNACK</text>
+    <text x="130" y="258" fill="#FFF8E9" font-family="Arial, sans-serif" font-size="28" font-weight="800" letter-spacing="4">SHACK</text>
+    <path d="M346 153L483 153L463 371C432 384 399 384 368 370L346 153Z" fill="url(#cup)" stroke="#0D1B15" stroke-width="7"/>
+    <path d="M340 148C358 131 467 131 489 148L480 170C452 183 373 181 349 168L340 148Z" fill="#F2F0DD" stroke="#0D1B15" stroke-width="7"/>
+    <path d="M378 108L394 145M413 104L419 145M450 108L443 145" stroke="#0D1B15" stroke-width="7" stroke-linecap="round"/>
+    <path d="M398 230C414 217 441 218 453 235C462 250 458 278 434 291C411 279 389 249 398 230Z" fill="#F5CB4D" opacity=".8"/>
+    <text x="374" y="330" fill="#F8F6E9" font-family="Arial, sans-serif" font-size="17" font-weight="800" letter-spacing="2">LEMONADE</text>
+    <path d="M431 184C453 161 500 158 524 180C542 196 536 232 509 246C480 259 442 244 431 218C426 207 426 194 431 184Z" fill="url(#chip)" stroke="#0D1B15" stroke-width="7"/>
+    <path d="M447 190C469 179 498 180 516 195M446 210C470 199 499 201 519 215M455 230C472 222 493 224 506 232" stroke="#FFF0A3" stroke-width="5" stroke-linecap="round" opacity=".8"/>
+  </g>
+  <path d="M290 58L299 80L322 84L303 99L307 122L289 110L269 121L276 98L258 84L281 81L290 58Z" fill="#B9D54D" stroke="#0D1B15" stroke-width="5"/>
+  <path d="M543 275L550 292L568 298L552 306L550 325L538 310L520 314L529 298L520 282L538 286L543 275Z" fill="#D84D35" stroke="#0D1B15" stroke-width="4"/>
+</svg>
